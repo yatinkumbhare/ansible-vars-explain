@@ -1,0 +1,4 @@
+---
+domain_name: all.com
+db_password: all-db-password
+csrf_secret: all-secret

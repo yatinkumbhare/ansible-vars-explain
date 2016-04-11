@@ -1,0 +1,4 @@
+---
+domain_name: staging.com
+db_password: staging-password
+csrf_secret: stagging-secret

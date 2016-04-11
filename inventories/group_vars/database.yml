@@ -1,0 +1,5 @@
+---
+# inventory based group_vars taking precedence over playbook group_vars
+db_port: 3306
+db_user: app_user
+db_password: inventory-database-password

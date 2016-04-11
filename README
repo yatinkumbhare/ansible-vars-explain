@@ -1,0 +1,13 @@
+Inventory file: /etc/ansible/hosts
+In this example files: inventories/
+
+Tip: In Ansible 1.2 or later the group_vars/ and host_vars/ directories can exist in the playbook directory OR the inventory directory. If both paths exist, variables in the playbook directory will override variables set in the inventory directory.
+
+Happening other way around for above statement
+
+
+
+Tip: Keeping your inventory file and variables in a git repo (or other version control) is an excellent way to track changes to your inventory and host variables.
+
+Example Run:
+/home/walmart/ansible-multistage/playbooks: ansible-playbook -i ../inventories/dev_servers roles/test-var-role/tasks/my-playbook.yml

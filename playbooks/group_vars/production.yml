@@ -1,0 +1,4 @@
+---
+domain_name: production.com
+db_password: production-password
+csrf_secret: prod-foobarbaz

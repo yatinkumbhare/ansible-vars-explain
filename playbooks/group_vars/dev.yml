@@ -1,0 +1,4 @@
+---
+domain_name: dev.com
+db_password: dev-password
+csrf_secret: dev-csrf-secret

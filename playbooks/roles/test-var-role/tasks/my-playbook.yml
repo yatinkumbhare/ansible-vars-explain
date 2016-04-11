@@ -1,0 +1,15 @@
+---
+# ansible-playbook -i inventories/staging_servers my-playbook.yml
+#- hosts: production
+#- hosts: staging
+# priority from highest to lowest is:
+# type (web, database)
+# stage (dev, staging)
+# the “all” file
+
+- hosts: dev
+  tasks:
+   - name: print db password
+     debug: msg={{ db_password }}
+   - name: print domain
+     debug: msg={{ domain_name }}

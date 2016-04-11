@@ -1,0 +1,11 @@
+[web]
+172.29.236.20
+172.29.236.21
+
+[database]
+172.29.236.22
+
+[production:children]
+web
+database
+

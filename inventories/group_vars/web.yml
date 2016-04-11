@@ -1,0 +1,3 @@
+---
+domain_name: myapp.com
+csrf_sercret: foobarbaz
